@@ -24,4 +24,4 @@ anova(body_mod)
 # Creates a violin plot of body mass, grouped by species
 # then saves the plot
 body_plot <- plot_body_violin(penguins_clean)
-save_plot_png(body_plot, 'figures/body violin plot.png', 5000, 5000, 300, 3)
+save_plot_png(body_plot, filename = 'figures/body violin plot.png', size_x = 5000, size_y = 5000, res = 300, scaling = 3)
